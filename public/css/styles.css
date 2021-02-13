@@ -14,13 +14,18 @@ html {
 body {
   font-family: inherit;
   line-height: inherit;
+  background-color: #000;
+  color: #fff;
+  height: 100vh;
 }
 button {
   background-color: transparent;
+  border: none;
+  color: inherit;
 }
+
 button:focus {
-  outline: 1px dotted;
-  outline: 5px auto -webkit-focus-ring-color;
+  outline: none;
 }
 
 a {
